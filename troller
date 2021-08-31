@@ -1,5 +1,5 @@
 for i,v in pairs(owner.Character:GetChildren())
-if v:IsA("Part") then
+if v:IsA("Part") do
 v.CanCollide = false
 end
 end
